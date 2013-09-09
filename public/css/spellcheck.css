@@ -1,0 +1,68 @@
+.left {
+    float: left;
+}
+
+.clear-left {
+    clear: left;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+#spellcheck-results h2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: medium;
+    margin-top: 12px;
+    margin-left: 0px;
+    margin-bottom: 7px;
+}
+
+#spellcheck-results h3 {
+    font-weight: bold;
+    font-style: italic;
+    color: #FF0000;
+    margin: 4px 2px;
+    font-size: medium;
+}
+
+#spellcheck-container {
+    width: 420px;
+    overflow: auto;
+    border-top: 1px solid #ccc;
+    margin-top: 25px;
+    padding-top: 15px;
+
+}
+
+#spellcheck-word {
+    margin: 10px;    
+}
+
+#spellcheck-word label {
+   margin-right: 128px; 
+}
+
+#spellcheck-num-suggest {
+    margin: 10px;
+}
+
+#spellcheck-num-suggest label {
+    margin-right: 8px;
+}
+
+#spellcheck-num-suggest input {
+    width: 20px;
+}
+
+#spellcheck-submit {
+    margin-left: 10px;
+}
+#spellcheck-results {
+    margin: 0px 20px 20px 20px;
+}
+
+.word-suggestions {
+    padding-left: 10px;
+}

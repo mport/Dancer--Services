@@ -1,0 +1,42 @@
+<%args>
+$request
+</%args>
+
+<script src="<% $request->{uri_base} %>/javascripts/imgresize.js"></script>
+<script src="<% $request->{uri_base} %>/javascripts/jquery.colorbox-min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="<% $request->{uri_base} %>/css/imgresize.css" />
+<link rel="stylesheet" href="<% $request->{uri_base} %>/css/colorbox.css" />
+
+<div id="page">
+    <div id="content">
+        <div id="header">
+            <h1>Resize Your Image</h1>
+            <h2>Pick a size...</h2>
+        </div>
+        <div id="imgresize-container">
+            <form action="<% $request->{uri_base} %>/imgresize" onSubmit="return false;">
+                <div id="imgresize-url" class="left">
+                    <label>URL:
+                        <input type="text" maxlength="500" name="url" />
+                    </label>
+                </div>
+                <div id="imgresize-x" class="clear-left left">
+                    <label>X<sub>(px)</sub>:
+                        <input type="text" maxlength="4" name="x" value="640" /> 
+                    </label>
+                </div>
+                <div id="imgresize-y" class="left">
+                    <label>Y<sub>(px)</sub>:
+                        <input type="text" maxlength="4" name="y" value="480" /> 
+                    </label>
+                </div>
+                <div class="left clear-left">
+                    <button type="button" id="imgresize-submit">Resize</button>
+                </div>
+                <div id="imgresize-error" class="left clear-left"><h3></h3></div>
+            </form>
+            <img id="spinner" src="../images/spinner.gif" height="100" width="100" style="display: none;"></img>
+        </div>
+    </div>
+</div>
+

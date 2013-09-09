@@ -1,0 +1,151 @@
+<%args>
+$request
+</%args>
+
+<div id="page">
+    <div id="sidebar">
+        <ul id="sidebar-items">
+            <li>
+                <h3>Services</h3>
+                <ul class="links">
+                    <li><a href="<% $request->{uri_base} %>/spellcheck">Spellcheck</a></li>
+                    <li><a href="<% $request->{uri_base} %>/imgresize">Resize Images</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <div id="header">
+            <h1>About Services</h1>
+            <h2>You&rsquo;ve joined the dance floor!</h2>
+        </div>
+
+        <div id="landing-page-body">
+            <h1>Spellcheck</h1>
+            <h2>Description</h2>
+                <strong>Spellcheck</strong> is a RESTful Spellcheck Application which also doubles as the Spellcheck Service interface.
+                It uses GNU Aspell with a generic English dictionary to provide suggestions for the misspelled words.
+
+            <h3><a href="#" id="spellcheck-info-link">Read More</a></h3>
+
+            <div id="spellcheck-info" style="display:none">
+            <h2>Spellcheck Application</h2>
+                Takes several space separated words and the number of suggestions to display for each misspelled word. 
+            <h2>Spellcheck Service</h2>
+
+                <h3>Request</h3>
+
+                Accepts two parameters:
+                    <ul>
+                        <li><b><i>word</i></b> - one or more space separated words to spellcheck</li>
+                        <li><b><i>num_suggest</i></b> - number of suggestions for each misspelled word</li>
+                    </ul>
+
+                <p>Requests can be either GET or POST with the response format depending on the Content-Type of the request.</p>
+                    <pre class="prettyprint">
+                        <code>
+curl 'http://localhost:3000/spellcheck/service?word=helo%20vorld&num_suggest=2'
+
+or
+
+curl -X POST -H 'Content-Type: application/json' -d '{"word":"helo vorld","num_suggest":"2"}' 'http://localhost:3000/spellcheck/service'
+                        </code>
+                    </pre>
+                <h3>Response</h3>
+                Response is structured as follows:
+                
+                <ul>
+                    <li><b><i>suggestions</i></b> - list of suggestions ( hash key <i>suggestions</i> ) and the original word ( hash key <i>word</i> )</li>
+                    <li><b><i>error</i></b> - any erros in they occur, <i>null</i> otherwise</li>
+                    <li><b><i>misspelled_total</i></b> - total number of misspelled words</li>
+                </ul>
+                    <pre class="prettyprint">
+                        <code>
+{
+   "suggestions" : [
+      {
+         "suggestions" : [
+            "hello",
+            "he lo"
+         ],
+         "word" : "helo"
+      },
+      {
+         "suggestions" : [
+            "world",
+            "voled"
+         ],
+         "word" : "vorld"
+      }
+   ],
+   "error" : null,
+   "misspelled_total" : 2
+}
+                        </code>
+                    </pre>
+            </div>  
+            <h1>Image Resize</h1>
+                <h2>Description</h2>
+                    <strong>Image Resize</strong> is a RESTful Application which also doubles as the Image Resize Service interface. 
+                    ImageMagick libraries are used to perform the resize transform and most image formats are supported. For 
+                    details please see <a href="http://imagemagick.org" target="_blank">ImageMagick</a>.
+                <h3><a href="#" id="imgresize-info-link">Read More</a></h3>
+                <div id="imgresize-info" style="display:none">
+                <h2>Image Resize Application</h2>
+                    Takes an image url, height and width dimensions in pixels and displays the resized image.
+                <h2>Image Resize Service</h2>
+                    <h3>Request</h3>
+
+                    Accepts three parameters:
+                        <ul>
+                            <li><b><i>url</i></b> - valid image URL</li>
+                            <li><b><i>x</i></b> - desired new image width in pixels</li>
+                            <li><b><i>y</i></b> - desired new image height in pixels</li>
+                        </ul>
+
+                    <p>Requests can be either GET or POST with the response format depending on the Content-Type of the request.</p>
+                        <pre class="prettyprint">
+                            <code>
+curl 'http://localhost:3000/imgresize/service?url=http://example.com/image.jpg&x=640&y=480' > resized_image.jpg
+                            </code>
+                        </pre>
+
+                    <h3>Response</h3>
+
+                       <p>A successful response is a binary image stream. In a browser, the user is prompted with a dialog to save/open the image.</p>
+
+                       <p>On error, the response is a JSON: <pre class="prettyprint"><code>{ error => $error }</code></pre></p>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $('#spellcheck-info-link').click(function() {
+        $('#spellcheck-info').slideToggle('fast', function() {
+
+            if ( $('#spellcheck-info-link').html() == 'Read More' ) {
+                $('#spellcheck-info-link').html('Show Less');
+            } else {
+                $('#spellcheck-info-link').html('Read More');
+            }
+            
+        });
+        return( false );
+    });
+
+    $('#imgresize-info-link').click(function() {
+        $('#imgresize-info').slideToggle('fast', function() {
+            
+            if ( $('#imgresize-info-link').html() == 'Read More' ) {
+                $('#imgresize-info-link').html('Show Less');
+            } else {
+                $('#imgresize-info-link').html('Read More');
+            }
+        });
+        return( false );
+    });
+</script>
+

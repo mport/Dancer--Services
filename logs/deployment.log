@@ -1,0 +1,714 @@
+[24472] error @0.021388> [hit #1]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 83.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x355e1b8)\', \'Try::Tiny::Catch=REF(0x355e980)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x354dcc0)\', \'Try::Tiny::Catch=REF(0x3552480)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x3549620)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3549548)\', \'Try::Tiny::Catch=REF(0x354d1c8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x3549620)\', \'Dancer::Request=HASH(0x3063680)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3055d98)\', \'Try::Tiny::Catch=REF(0x30555b8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x1f89798)\', \'Try::Tiny::Catch=REF(0x3040c28)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x3063680)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x1fdcf80)\', \'Dancer::Request=HASH(0x3063680)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x34f0160)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0x1e414e8)\', \'HASH(0x34f0160)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x174e918)\', \'Net::Server::Proto::TCP=GLOB(0x34efbd8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x174e918)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x174e918)\', \'port\', \'ARRAY(0x30fd8a0)\', \'host\', \'ARRAY(0x30fd930)\', \'proto\', \'ARRAY(0x34e8e30)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x174e918)\', \'CODE(0x1e414e8)\', \'HASH(0x17126d0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0x1712b08)\', \'CODE(0x1e414e8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0x14b5600)\', \'Plack::Handler::Starman=HASH(0x1712b08)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0x13ed300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24467] error @0.010650> [hit #6]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 83.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3576a90)\', \'Try::Tiny::Catch=REF(0x35a5b30)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x359ba58)\', \'Try::Tiny::Catch=REF(0x3595b28)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x35a35a0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x352d988)\', \'Try::Tiny::Catch=REF(0x357b1b0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x35a35a0)\', \'Dancer::Request=HASH(0x3591428)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3595048)\', \'Try::Tiny::Catch=REF(0x359b200)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x1f89798)\', \'Try::Tiny::Catch=REF(0x359f1f0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x3591428)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x1fdcf80)\', \'Dancer::Request=HASH(0x3591428)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x3571c10)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0x1e414e8)\', \'HASH(0x3571c10)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x174e918)\', \'Net::Server::Proto::TCP=GLOB(0x3576298)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x174e918)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x174e918)\', \'port\', \'ARRAY(0x30fd8a0)\', \'host\', \'ARRAY(0x30fd930)\', \'proto\', \'ARRAY(0x34e8e30)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x174e918)\', \'CODE(0x1e414e8)\', \'HASH(0x17126d0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0x1712b08)\', \'CODE(0x1e414e8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0x14b5600)\', \'Plack::Handler::Starman=HASH(0x1712b08)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0x13ed300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24467] error @0.004874> [hit #7]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 83.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x34f0190)\', \'Try::Tiny::Catch=REF(0x35a3e58)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x35981a0)\', \'Try::Tiny::Catch=REF(0x3571c10)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x35762c8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3571da8)\', \'Try::Tiny::Catch=REF(0x359ecf8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x35762c8)\', \'Dancer::Request=HASH(0x35aa9b8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x35a3558)\', \'Try::Tiny::Catch=REF(0x30557f8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x1f89798)\', \'Try::Tiny::Catch=REF(0x35a5ef0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x35aa9b8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x1fdcf80)\', \'Dancer::Request=HASH(0x35aa9b8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x359eef0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0x1e414e8)\', \'HASH(0x359eef0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x174e918)\', \'Net::Server::Proto::TCP=GLOB(0x3576298)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x174e918)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x174e918)\', \'port\', \'ARRAY(0x30fd8a0)\', \'host\', \'ARRAY(0x30fd930)\', \'proto\', \'ARRAY(0x34e8e30)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x174e918)\', \'CODE(0x1e414e8)\', \'HASH(0x17126d0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0x1712b08)\', \'CODE(0x1e414e8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0x14b5600)\', \'Plack::Handler::Starman=HASH(0x1712b08)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0x13ed300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24467] error @0.016687> [hit #8]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 83.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x359b2d8)\', \'Try::Tiny::Catch=REF(0x3595348)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x35978d0)\', \'Try::Tiny::Catch=REF(0x359f1a8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x35d2438)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x35b1df0)\', \'Try::Tiny::Catch=REF(0x35ae090)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x35d2438)\', \'Dancer::Request=HASH(0x35addc0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3591428)\', \'Try::Tiny::Catch=REF(0x35b1ca0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x1f89798)\', \'Try::Tiny::Catch=REF(0x35a3dc8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x35addc0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x1fdcf80)\', \'Dancer::Request=HASH(0x35addc0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x356a588)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0x1e414e8)\', \'HASH(0x356a588)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x174e918)\', \'Net::Server::Proto::TCP=GLOB(0x3576298)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x174e918)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x174e918)\', \'port\', \'ARRAY(0x30fd8a0)\', \'host\', \'ARRAY(0x30fd930)\', \'proto\', \'ARRAY(0x34e8e30)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x174e918)\', \'CODE(0x1e414e8)\', \'HASH(0x17126d0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0x1712b08)\', \'CODE(0x1e414e8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0x14b5600)\', \'Plack::Handler::Starman=HASH(0x1712b08)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0x13ed300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24467] error @0.005049> [hit #9]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 83.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x359ed88)\', \'Try::Tiny::Catch=REF(0x3591fe0)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3571da8)\', \'Try::Tiny::Catch=REF(0x359af90)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x34f0130)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x35aa670)\', \'Try::Tiny::Catch=REF(0x35b1be0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x34f0130)\', \'Dancer::Request=HASH(0x35980f8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x35d23f0)\', \'Try::Tiny::Catch=REF(0x35ad670)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x1f89798)\', \'Try::Tiny::Catch=REF(0x35bbd00)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x35980f8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x1fdcf80)\', \'Dancer::Request=HASH(0x35980f8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x3597540)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0x1e414e8)\', \'HASH(0x3597540)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x174e918)\', \'Net::Server::Proto::TCP=GLOB(0x3576298)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x174e918)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x174e918)\', \'port\', \'ARRAY(0x30fd8a0)\', \'host\', \'ARRAY(0x30fd930)\', \'proto\', \'ARRAY(0x34e8e30)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x174e918)\', \'CODE(0x1e414e8)\', \'HASH(0x17126d0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0x1712b08)\', \'CODE(0x1e414e8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0x14b5600)\', \'Plack::Handler::Starman=HASH(0x1712b08)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0x13ed300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24471] error @0.012175> [hit #7]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 83.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3727cf8)\', \'Try::Tiny::Catch=REF(0x3740e30)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x372c040)\', \'Try::Tiny::Catch=REF(0x372c2f8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x3752fd8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3718c30)\', \'Try::Tiny::Catch=REF(0x30554e0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x3752fd8)\', \'Dancer::Request=HASH(0x3743458)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x374b5a0)\', \'Try::Tiny::Catch=REF(0x3048e08)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x1f89798)\', \'Try::Tiny::Catch=REF(0x374ef20)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x3743458)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x1fdcf80)\', \'Dancer::Request=HASH(0x3743458)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x3743788)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0x1e414e8)\', \'HASH(0x3743788)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x174e918)\', \'Net::Server::Proto::TCP=GLOB(0x372c4c0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x174e918)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x174e918)\', \'port\', \'ARRAY(0x30fd8a0)\', \'host\', \'ARRAY(0x30fd930)\', \'proto\', \'ARRAY(0x34e8e30)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x174e918)\', \'CODE(0x1e414e8)\', \'HASH(0x17126d0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0x1712b08)\', \'CODE(0x1e414e8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0x14b5600)\', \'Plack::Handler::Starman=HASH(0x1712b08)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0x13ed300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24468] error @0.016942> [hit #6]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 83.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3578548)\', \'Try::Tiny::Catch=REF(0x371e550)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3569c80)\', \'Try::Tiny::Catch=REF(0x357d270)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x35b5d60)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x371f160)\', \'Try::Tiny::Catch=REF(0x357cfe8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x35b5d60)\', \'Dancer::Request=HASH(0x3573670)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x374fe20)\', \'Try::Tiny::Catch=REF(0x371ecd0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x1f89798)\', \'Try::Tiny::Catch=REF(0x3754d28)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x3573670)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x1fdcf80)\', \'Dancer::Request=HASH(0x3573670)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x374fad8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0x1e414e8)\', \'HASH(0x374fad8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x174e918)\', \'Net::Server::Proto::TCP=GLOB(0x35785d8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x174e918)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x174e918)\', \'port\', \'ARRAY(0x30fd8a0)\', \'host\', \'ARRAY(0x30fd930)\', \'proto\', \'ARRAY(0x34e8e30)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x174e918)\', \'CODE(0x1e414e8)\', \'HASH(0x17126d0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0x1712b08)\', \'CODE(0x1e414e8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0x14b5600)\', \'Plack::Handler::Starman=HASH(0x1712b08)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0x13ed300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24470] error @0.010804> [hit #5]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 83.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3552540)\', \'Try::Tiny::Catch=REF(0x359ecb0)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3574bb8)\', \'Try::Tiny::Catch=REF(0x3596ad0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x354c838)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x358fd98)\', \'Try::Tiny::Catch=REF(0x3552420)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x354c838)\', \'Dancer::Request=HASH(0x3040340)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3574c90)\', \'Try::Tiny::Catch=REF(0x3569ec0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x1f89798)\', \'Try::Tiny::Catch=REF(0x3597490)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x3040340)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x1fdcf80)\', \'Dancer::Request=HASH(0x3040340)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x3577f60)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0x1e414e8)\', \'HASH(0x3577f60)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x174e918)\', \'Net::Server::Proto::TCP=GLOB(0x352da10)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x174e918)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x174e918)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x174e918)\', \'port\', \'ARRAY(0x30fd8a0)\', \'host\', \'ARRAY(0x30fd930)\', \'proto\', \'ARRAY(0x34e8e30)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x174e918)\', \'CODE(0x1e414e8)\', \'HASH(0x17126d0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0x1712b08)\', \'CODE(0x1e414e8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0x14b5600)\', \'Plack::Handler::Starman=HASH(0x1712b08)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0x13ed300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 75.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24700] error @0.016093> [hit #1]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 84.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e444d8)\', \'Try::Tiny::Catch=REF(0x2e44cb8)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e340e0)\', \'Try::Tiny::Catch=REF(0x2e389f0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x2e34260)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e30878)\', \'Try::Tiny::Catch=REF(0x2e335e8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x2e34260)\', \'Dancer::Request=HASH(0x294fad0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x293e120)\', \'Try::Tiny::Catch=REF(0x293e7f8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x1872718)\', \'Try::Tiny::Catch=REF(0x2928f60)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x294fad0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x18c5f00)\', \'Dancer::Request=HASH(0x294fad0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x2dd6700)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0xffb2e0)\', \'HASH(0x2dd6700)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x1037948)\', \'Net::Server::Proto::TCP=GLOB(0x2dd6178)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x1037948)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x1037948)\', \'port\', \'ARRAY(0x29e4398)\', \'host\', \'ARRAY(0x29e4428)\', \'proto\', \'ARRAY(0x2dcf1f0)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x1037948)\', \'CODE(0xffb2e0)\', \'HASH(0xffb700)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0xffbb38)\', \'CODE(0xffb2e0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0xe77c88)\', \'Plack::Handler::Starman=HASH(0xffbb38)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0xcd6300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24701] error @0.021433> [hit #1]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 84.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e44528)\', \'Try::Tiny::Catch=REF(0x2e44d08)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e340b0)\', \'Try::Tiny::Catch=REF(0x2e388d0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x2e2feb0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e308a0)\', \'Try::Tiny::Catch=REF(0x2e33588)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x2e2feb0)\', \'Dancer::Request=HASH(0x294fad0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x293e120)\', \'Try::Tiny::Catch=REF(0x293e7f8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x1872718)\', \'Try::Tiny::Catch=REF(0x2928f60)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x294fad0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x18c5f00)\', \'Dancer::Request=HASH(0x294fad0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x2dd6700)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0xffb2e0)\', \'HASH(0x2dd6700)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x1037948)\', \'Net::Server::Proto::TCP=GLOB(0x2dd6178)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x1037948)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x1037948)\', \'port\', \'ARRAY(0x29e4398)\', \'host\', \'ARRAY(0x29e4428)\', \'proto\', \'ARRAY(0x2dcf1f0)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x1037948)\', \'CODE(0xffb2e0)\', \'HASH(0xffb700)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0xffbb38)\', \'CODE(0xffb2e0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0xe77c88)\', \'Plack::Handler::Starman=HASH(0xffbb38)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0xcd6300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24701] error @0.016474> [hit #2]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 84.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e341d0)\', \'Try::Tiny::Catch=REF(0x2e44c90)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e14030)\', \'Try::Tiny::Catch=REF(0x2dd68c8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x2e53020)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e33570)\', \'Try::Tiny::Catch=REF(0x2e393f8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x2e53020)\', \'Dancer::Request=HASH(0x2e470b0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e23228)\', \'Try::Tiny::Catch=REF(0x2e334b0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x1872718)\', \'Try::Tiny::Catch=REF(0x2e387f8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x2e470b0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x18c5f00)\', \'Dancer::Request=HASH(0x2e470b0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x105bb60)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0xffb2e0)\', \'HASH(0x105bb60)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x1037948)\', \'Net::Server::Proto::TCP=GLOB(0x2dd6178)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x1037948)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x1037948)\', \'port\', \'ARRAY(0x29e4398)\', \'host\', \'ARRAY(0x29e4428)\', \'proto\', \'ARRAY(0x2dcf1f0)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x1037948)\', \'CODE(0xffb2e0)\', \'HASH(0xffb700)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0xffbb38)\', \'CODE(0xffb2e0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0xe77c88)\', \'Plack::Handler::Starman=HASH(0xffbb38)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0xcd6300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24702] error @0.023225> [hit #1]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 84.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e444f8)\', \'Try::Tiny::Catch=REF(0x2e44cd8)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e340f8)\', \'Try::Tiny::Catch=REF(0x2e389a0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x2e38dc0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e308a0)\', \'Try::Tiny::Catch=REF(0x2e33660)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x2e38dc0)\', \'Dancer::Request=HASH(0x294fad0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x293e120)\', \'Try::Tiny::Catch=REF(0x293e7f8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x1872718)\', \'Try::Tiny::Catch=REF(0x2928f60)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x294fad0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x18c5f00)\', \'Dancer::Request=HASH(0x294fad0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x2dd6700)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0xffb2e0)\', \'HASH(0x2dd6700)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x1037948)\', \'Net::Server::Proto::TCP=GLOB(0x2dd6178)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x1037948)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x1037948)\', \'port\', \'ARRAY(0x29e4398)\', \'host\', \'ARRAY(0x29e4428)\', \'proto\', \'ARRAY(0x2dcf1f0)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x1037948)\', \'CODE(0xffb2e0)\', \'HASH(0xffb700)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0xffbb38)\', \'CODE(0xffb2e0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0xe77c88)\', \'Plack::Handler::Starman=HASH(0xffbb38)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0xcd6300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24707] error @0.018919> [hit #2]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 84.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e14a80)\', \'Try::Tiny::Catch=REF(0x2e72b40)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e681b8)\', \'Try::Tiny::Catch=REF(0x2e68710)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x2e686f8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2dd66e8)\', \'Try::Tiny::Catch=REF(0x2e50db8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x2e686f8)\', \'Dancer::Request=HASH(0x2931978)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2e3ce30)\', \'Try::Tiny::Catch=REF(0x2e30048)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x1872718)\', \'Try::Tiny::Catch=REF(0x2e38f98)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x2931978)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x18c5f00)\', \'Dancer::Request=HASH(0x2931978)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x293e570)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0xffb2e0)\', \'HASH(0x293e570)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x1037948)\', \'Net::Server::Proto::TCP=GLOB(0x2e14690)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x1037948)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x1037948)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x1037948)\', \'port\', \'ARRAY(0x29e4398)\', \'host\', \'ARRAY(0x29e4428)\', \'proto\', \'ARRAY(0x2dcf1f0)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x1037948)\', \'CODE(0xffb2e0)\', \'HASH(0xffb700)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0xffbb38)\', \'CODE(0xffb2e0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0xe77c88)\', \'Plack::Handler::Starman=HASH(0xffbb38)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0xcd6300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24737] error @0.010804> [hit #2]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 84.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x4061960)\', \'Try::Tiny::Catch=REF(0x40b0508)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x40a5b78)\', \'Try::Tiny::Catch=REF(0x40a60d0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x40aab38)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x4023930)\', \'Try::Tiny::Catch=REF(0x409dac8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x40aab38)\', \'Dancer::Request=HASH(0x3b8ab20)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x407ce60)\', \'Try::Tiny::Catch=REF(0x408a668)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2abe688)\', \'Try::Tiny::Catch=REF(0x4085148)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x3b8ab20)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x22474d0)\', \'Dancer::Request=HASH(0x3b8ab20)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x3b8af88)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0x24f5820)\', \'HASH(0x3b8af88)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x2283838)\', \'Net::Server::Proto::TCP=GLOB(0x4061570)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x2283838)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x2283838)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x2283838)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x2283838)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x2283838)\', \'port\', \'ARRAY(0x3c31530)\', \'host\', \'ARRAY(0x3c315c0)\', \'proto\', \'ARRAY(0x401c330)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x2283838)\', \'CODE(0x24f5820)\', \'HASH(0x22475f0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0x2247a28)\', \'CODE(0x24f5820)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0x20ed160)\', \'Plack::Handler::Starman=HASH(0x2247a28)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0x1f22300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24782] error @0.013038> [hit #1]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 84.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x45eca78)\', \'Try::Tiny::Catch=REF(0x45ed258)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x45dc710)\', \'Try::Tiny::Catch=REF(0x45e0f90)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x45d8b38)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x45d8e98)\', \'Try::Tiny::Catch=REF(0x45dbc30)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x45d8b38)\', \'Dancer::Request=HASH(0x41772a0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x40e6c08)\', \'Try::Tiny::Catch=REF(0x40d1878)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x301a6e8)\', \'Try::Tiny::Catch=REF(0x40d1de8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x41772a0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x27a34e0)\', \'Dancer::Request=HASH(0x41772a0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x45812f0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0x2a51b08)\', \'HASH(0x45812f0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x27df828)\', \'Net::Server::Proto::TCP=GLOB(0x4580d68)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x27df828)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x27df828)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x27df828)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x27df828)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x27df828)\', \'port\', \'ARRAY(0x418d270)\', \'host\', \'ARRAY(0x418d300)\', \'proto\', \'ARRAY(0x45779a0)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x27df828)\', \'CODE(0x2a51b08)\', \'HASH(0x27a3600)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0x27a3a38)\', \'CODE(0x2a51b08)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0x2649150)\', \'Plack::Handler::Starman=HASH(0x27a3a38)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0x247e300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24781] error @0.014457> [hit #1]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 84.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x45ec9a8)\', \'Try::Tiny::Catch=REF(0x45ed188)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x45dc698)\', \'Try::Tiny::Catch=REF(0x45e0f40)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x45e56f8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x45d8e98)\', \'Try::Tiny::Catch=REF(0x45dbba0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x45e56f8)\', \'Dancer::Request=HASH(0x41772a0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x40e6c08)\', \'Try::Tiny::Catch=REF(0x40d1878)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x301a6e8)\', \'Try::Tiny::Catch=REF(0x40d1de8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x41772a0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x27a34e0)\', \'Dancer::Request=HASH(0x41772a0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x45812f0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0x2a51b08)\', \'HASH(0x45812f0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x27df828)\', \'Net::Server::Proto::TCP=GLOB(0x4580d68)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x27df828)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x27df828)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x27df828)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x27df828)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x27df828)\', \'port\', \'ARRAY(0x418d270)\', \'host\', \'ARRAY(0x418d300)\', \'proto\', \'ARRAY(0x45779a0)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x27df828)\', \'CODE(0x2a51b08)\', \'HASH(0x27a3600)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0x27a3a38)\', \'CODE(0x2a51b08)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0x2649150)\', \'Plack::Handler::Starman=HASH(0x27a3a38)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0x247e300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68
+[24796] error @0.018458> [hit #1]bless( {'_longmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 84.
+	apps::imgresize::_validate_imgresize_params(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 57
+	apps::imgresize::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x396b930)\', \'Try::Tiny::Catch=REF(0x396c110)\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76
+	apps::imgresize::_resize(\'http://fc06.deviantart.net/fs48/f/2009/203/7/0/Manga_Girl_by_...\', 640, \'a\') called at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 32
+	apps::imgresize::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 36
+	Dancer::Plugin::Ajax::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x395b318)\', \'Try::Tiny::Catch=REF(0x395fbc8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Plugin/Ajax.pm line 41
+	Dancer::Plugin::Ajax::__ANON__() called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 262
+	Dancer::Route::execute(\'Dancer::Route=HASH(0x395a970)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 177
+	Dancer::Route::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x3957c40)\', \'Try::Tiny::Catch=REF(0x395a808)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Route.pm line 191
+	Dancer::Route::run(\'Dancer::Route=HASH(0x395a970)\', \'Dancer::Request=HASH(0x2d33d30)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 135
+	Dancer::Renderer::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 83
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x34653e0)\', \'Try::Tiny::Catch=REF(0x34660d0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 144
+	Dancer::Renderer::get_action_response(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Renderer.pm line 31
+	Dancer::Renderer::render_action(\'Dancer::Renderer\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 84
+	Dancer::Handler::try {...} () called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 78
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Try/Tiny.pm line 74
+	Try::Tiny::try(\'CODE(0x2399648)\', \'Try::Tiny::Catch=REF(0x34589a8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 113
+	Dancer::Handler::render_request(\'Dancer::Request=HASH(0x2d33d30)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 76
+	Dancer::Handler::handle_request(\'Dancer::Handler::PSGI=HASH(0x23ed280)\', \'Dancer::Request=HASH(0x2d33d30)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Dancer/Handler.pm line 123
+	Dancer::Handler::__ANON__(\'HASH(0x3900138)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Util.pm line 142
+	Plack::Util::run_app(\'CODE(0x23732c8)\', \'HASH(0x3900138)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 256
+	Starman::Server::process_request(\'Starman::Server=HASH(0x1b5e828)\', \'Net::Server::Proto::TCP=GLOB(0x38ffbb0)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 75
+	Net::Server::run_client_connection(\'Starman::Server=HASH(0x1b5e828)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	eval {...} called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 229
+	Net::Server::PreFork::run_child(\'Starman::Server=HASH(0x1b5e828)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 187
+	Net::Server::PreFork::run_n_children(\'Starman::Server=HASH(0x1b5e828)\', 10) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server/PreFork.pm line 111
+	Net::Server::PreFork::loop(\'Starman::Server=HASH(0x1b5e828)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Net/Server.pm line 61
+	Net::Server::run(\'Starman::Server=HASH(0x1b5e828)\', \'port\', \'ARRAY(0x350be08)\', \'host\', \'ARRAY(0x350be98)\', \'proto\', \'ARRAY(0x38f6788)\', \'serialize\', \'flock\', ...) called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Starman/Server.pm line 67
+	Starman::Server::run(\'Starman::Server=HASH(0x1b5e828)\', \'CODE(0x23732c8)\', \'HASH(0x1b22620)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Handler/Starman.pm line 18
+	Plack::Handler::Starman::run(\'Plack::Handler::Starman=HASH(0x1b22a58)\', \'CODE(0x23732c8)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Loader.pm line 84
+	Plack::Loader::run(\'Plack::Loader=HASH(0x19c2640)\', \'Plack::Handler::Starman=HASH(0x1b22a58)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/lib/site_perl/5.17.10/Plack/Runner.pm line 277
+	Plack::Runner::run(\'Plack::Runner=HASH(0x17fd300)\') called at /home/miki/perl5/perlbrew/perls/perl-5.17.10/bin/plackup line 10
+','_raised_arguments' => ['dimension parameters must be numeric'],'_shortmess' => ' at /home/miki/dev/shutterstock/Apps/lib/imgresize.pm line 76.
+'}, 'Dancer::Exception::ImgResize' ) in /home/miki/dev/shutterstock/Apps/lib/imgresize.pm l. 68

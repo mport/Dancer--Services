@@ -1,0 +1,60 @@
+<%args>
+$request
+</%args>
+
+<script src="<% $request->{uri_base} %>/javascripts/spellcheck.js"></script>
+<link rel="stylesheet" href="<% $request->{uri_base} %>/css/spellcheck.css" />
+
+<div id="page">
+    <div id="content">
+        <div id="header">
+            <h1>Spellcheck</h1>
+            <h2>Lets see if you can spel</h2>
+        </div>
+        <div id="spellcheck-container">
+            <form action="<% $request->{uri_base} %>/spellcheck" onSubmit="return false;">
+                <div id="spellcheck-word" class="left">
+                    <input type="text" maxlength="30" name="word" />
+                </div>
+                <div id="spellcheck-num-suggest" class="left">
+                    <label># Suggestions:
+                        <input type="text" maxlength="2" name="num_suggest" value="1" /> 
+                    </label>
+                </div>
+                <div class="left clear-left">
+                    <button type="button" id="spellcheck-submit">Check</button>
+                </div>
+                <div id="spellcheck-results" class="left clear-left"></div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+<script id="spellcheck-results-template" type="text/x-handlebars-template">
+
+{{#if error}}
+    <h3>{{this.error}}</h3>
+{{else}}
+    {{#if misspelled_total}}
+        <h2>Suggestions:</h2>
+        {{#each suggestions}}
+            {{#if this.suggestions}}
+                <h3>{{word}}</h3>
+                <div class="word-suggestions">
+                    {{#each suggestions}}
+                        {{this}}&nbsp;
+                    {{/each}}
+                </div>
+            {{/if}}
+        {{/each}}
+    {{else}}
+        <h3>Congratulations! You are ready for the spelling bee contest!</h3>
+    {{/if}}
+{{/if}}
+    
+</script>
+
+
+

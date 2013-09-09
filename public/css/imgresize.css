@@ -1,0 +1,59 @@
+.left {
+    float: left;
+}
+
+.clear-left {
+    clear: left;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+
+#imgresize-error {
+    margin: 20px 20px 20px 20px;
+}
+
+#imgresize-error h3 {
+    font-weight: bold;
+    font-style: italic;
+    color: #FF0000;
+    margin: 4px 2px;
+    font-size: medium;
+}
+
+#imgresize-container {
+    min-width: 500px;
+    overflow: auto;
+    border-top: 1px solid #ccc;
+    margin-top: 25px;
+    padding-top: 15px;
+}
+
+#imgresize-url {
+    margin: 10px;
+}
+
+#imgresize-url input {
+    width: 425px;
+}
+
+
+#imgresize-x, #imgresize-y {
+    margin: 10px;
+}
+
+#imgresize-x label, #imgresize-y label {
+    margin-right: 8px;
+}
+
+#imgresize-x input, #imgresize-y input {
+    width: 40px;
+}
+
+#imgresize-submit {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+

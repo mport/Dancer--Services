@@ -1,0 +1,29 @@
+<%args>
+$settings
+$request
+$dancer_version
+$content
+</%args>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=<% $settings->{charset} %>" />
+<title>Apps</title>
+<link rel="stylesheet" href="<% $request->{uri_base} %>/css/style.css" />
+<link rel="stylesheet" href="<% $request->{uri_base} %>/css/desert.css" />
+
+<script src="<% $request->{uri_base} %>/javascripts/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="<% $request->{uri_base} %>/javascripts/jquery.blockUI.js" type="text/javascript"></script>
+<script src="<% $request->{uri_base} %>/javascripts/handlebars.js" type="text/javascript"></script>
+<script src="<% $request->{uri_base} %>/javascripts/google-code-prettify/run_prettify.js" type="text/javascript"></script>
+
+</head>
+<body>
+<% $content %>
+<div id="footer">
+Powered by <a href="http://perldancer.org/">Dancer</a> <% $dancer_version %>
+</div>
+</body>
+</html>
